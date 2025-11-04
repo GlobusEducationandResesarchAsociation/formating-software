@@ -6,6 +6,7 @@ body {
   align-items: center;
   height: 100vh;
 }
+
 .container {
   background: white;
   padding: 30px;
@@ -14,9 +15,11 @@ body {
   width: 400px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
+
 h1 {
   color: #333;
 }
+
 button {
   margin-top: 15px;
   padding: 10px 20px;
@@ -26,6 +29,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
 button:hover {
   background: #0056b3;
 }
