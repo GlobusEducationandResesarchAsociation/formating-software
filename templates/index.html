@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Document Formatter</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Document Formatter</h1>
+    <p>Upload a .docx or .pdf to format it into A4, Times New Roman, 12pt, 1.5 spacing</p>
+    <form method="POST" enctype="multipart/form-data">
+      <input type="file" name="file" accept=".pdf,.docx" required />
+      <button type="submit">Upload & Format</button>
+    </form>
+  </div>
+</body>
+</html>
